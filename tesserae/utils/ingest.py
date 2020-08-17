@@ -5,7 +5,7 @@ from natsort import natsorted
 
 from tesserae.db.entities import Feature
 from tesserae.db.entities.text import Text, TextStatus
-from tesserae.tokenizers import GreekTokenizer, LatinTokenizer
+from tesserae.tokenizers import GreekTokenizer, LatinTokenizer, FrenchTokenizer
 from tesserae.unitizer import Unitizer
 from tesserae.utils.coordinate import JobQueue
 from tesserae.utils.delete import remove_text
