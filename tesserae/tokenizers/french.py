@@ -10,7 +10,7 @@ class FrenchTokenizer(BaseTokenizer):
         super(FrenchTokenizer, self).__init__(connection)
 
         # Set up patterns that will be reused
-        self.lemmatizer = Lemmata('lemmata', 'lat')
+        self.lemmatizer = Lemmata('lemmata', 'french')
 
         self.split_pattern = \
             '( / )|([\\s]+)|([^\\w' + self.diacriticals + ']+)'
