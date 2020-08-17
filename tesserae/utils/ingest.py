@@ -90,6 +90,7 @@ def _run_ingest(connection, text, file_location, enable_multitext=False):
 _tokenizers = {
     'greek': GreekTokenizer,
     'latin': LatinTokenizer,
+    'french': FrenchTokenizer,
 }
 
 
